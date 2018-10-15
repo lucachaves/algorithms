@@ -7,7 +7,7 @@ var result = [];
 while (lines.length > 0) {
   const dna = lines.shift();
   const resistance = lines.shift();
-  const isResistance = dna.includes(resistance) ? 'Resistente' : 'Nao resistente';
+  const isResistance = dna.search(resistance) > -1 ? 'Resistente' : 'Nao resistente';
   result.push(isResistance);
 }
 

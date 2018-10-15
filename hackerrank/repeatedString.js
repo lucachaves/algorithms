@@ -10,4 +10,4 @@ function repeatedString(s, n) {
 }
 
 console.log(repeatedString('aba', 10)) //=> 7
-console.log(repeatedString('a', 1000000000000)) //=> 7
+console.log(repeatedString('a', 1000000000000)) //=> 1000000000000
